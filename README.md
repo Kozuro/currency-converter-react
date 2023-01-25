@@ -4,7 +4,7 @@
 
 ![Demo](https://github.com/Kozuro/currency-converter-react/blob/master/currency-converter-react%20demo.gif?raw=true)
 
-https://kozuro.github.io/currency-converter/
+https://kozuro.github.io/currency-converter-react/
 
 ## Description
 
