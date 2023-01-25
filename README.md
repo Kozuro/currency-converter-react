@@ -1,12 +1,14 @@
-# currency-converter
+# currency-converter-react
 
 ## Demo
 
-https://kozuro.github.io/currency-converter/
+![Demo](https://github.com/Kozuro/currency-converter-react/blob/master/currency-converter-react%20demo.gif?raw=true)
+
+https://kozuro.github.io/currency-converter-react/
 
 ## Description
 
-This is my first simple currency converter in *java script*. It will be expanded in the future.
+This is my first simple currency converter in JavaScript. It will be expanded in the future.
 
 ## Available currency
 
