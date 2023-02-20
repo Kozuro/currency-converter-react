@@ -16,9 +16,10 @@ export const Clock = () => {
     }, []);
 
     return (
+
         <div className="clock">
             <span>
-                {date.toLocaleTimeString("pl", { weekday: "long", day: "numeric", month: "numeric", year: "numeric" })}
+                Dzisiaj jest {date.toLocaleDateString("pl", { weekday: "long", day: "numeric", month: "long" })}, {date.toLocaleTimeString("pl")}
             </span>
         </div>
     );

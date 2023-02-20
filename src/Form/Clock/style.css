@@ -1,4 +1,6 @@
 .clock {
+    font-weight: 700;
+    font-size: 12px;
     text-align: right;
     padding-bottom: 30px;
 }
