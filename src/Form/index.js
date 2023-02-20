@@ -30,9 +30,7 @@ export const Form = () => {
                 <legend className="form__legend">
                     Kalkulator walut
                 </legend>
-                <p>
                 <Clock />
-                </p>
                 <p>
                     <label>
                         <span className="form__labelText">Kwota:</span>
