@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { currencies } from "../currencies";
 import { Result } from "./Result";
+import { Clock } from "./Clock";
 import "./style.css";
 
 export const Form = () => {
@@ -29,6 +30,9 @@ export const Form = () => {
                 <legend className="form__legend">
                     Kalkulator walut
                 </legend>
+                <p>
+                <Clock />
+                </p>
                 <p>
                     <label>
                         <span className="form__labelText">Kwota:</span>
@@ -71,7 +75,7 @@ export const Form = () => {
                     Przelicz!
                 </button>
             </p>
-            <Result result={result}/>
+            <Result result={result} />
         </form>
     );
 };
