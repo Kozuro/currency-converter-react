@@ -10,7 +10,7 @@ export const Clock = () => {
 
     useEffect(() => {
         const timerId = setInterval(refreshClock, 1000);
-        return function cleanup() {
+        return () => {
             clearInterval(timerId);
         };
     }, []);
